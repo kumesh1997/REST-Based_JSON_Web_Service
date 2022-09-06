@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'KumeshWebService'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DA94AA40F2674779AC4888E8F54D4923 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_49B9BAC9028442E98C63D5CFF1385055 }}
           package: '*.jar'
