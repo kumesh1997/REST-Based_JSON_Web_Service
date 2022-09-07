@@ -49,4 +49,9 @@ public class BookController {
     public String sendGreeting(@PathVariable("message") String message){
         return "Hello " +message+","+"\nWelcome to the REST-Based JSON Web Service";
     }
+
+    @GetMapping (value = "/greet" , produces = APPLICATION_JSON_VALUE )
+    public String greetMe(){
+        return "Hello Welcome to the REST-Based JSON Web Service";
+    }
 }
